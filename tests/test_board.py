@@ -1,9 +1,12 @@
 import unittest
-from board import Board
+
+from tictactoe.board import Board
 
 class TestBoard(unittest.TestCase):
     def setUp(self):
         self.board = Board()
+        self.board.registry('x')
+        self.board.registry('o')
 
     def test_get_board(self):
         board_values = self.board.get_board()

@@ -1,6 +1,6 @@
-from board import Board
-from player import Player
-from bot_random import BotRandom
+from tictactoe.board import Board
+from tictactoe.player import Player
+from tictactoe.bot_random import BotRandom
 
 b = Board()
 p1 = Player('x', b)

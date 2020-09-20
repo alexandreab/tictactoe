@@ -1,5 +1,5 @@
 import random
-from player import Player
+from tictactoe.player import Player
 
 class BotRandom(Player):
     def play(self):
